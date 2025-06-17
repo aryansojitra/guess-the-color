@@ -12,7 +12,7 @@ A fun and interactive web-based game where users try to guess the correct RGB co
 
 - ## 📸 Screenshots
 
-> ![color game/color_game.png]
+> ![Game Preview](./color_game.png)
 >
 > ## ✨ Features
 
