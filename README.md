@@ -12,9 +12,7 @@ A fun and interactive web-based game where users try to guess the correct RGB co
 
 - ## 📸 Screenshots
 
-> *(Add screenshots by placing image files in your repo and linking them like below)*  
-> ![Game Screenshot](guess-the-color/color game
-/color_game.png)
+> ![Game Screenshot]
 >
 > ## ✨ Features
 
