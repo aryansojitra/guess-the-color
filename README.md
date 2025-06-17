@@ -47,4 +47,5 @@ To run the project locally:
 For feedback or suggestions, feel free to reach out:
 
 GitHub: @aryansojitra
+
 Email: [aryanpatel0344h@gmail.com]
