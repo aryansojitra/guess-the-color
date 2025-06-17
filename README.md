@@ -42,9 +42,9 @@ To run the project locally:
 
 3. Open index.html in your browser.
 
+
 📫 Contact
 For feedback or suggestions, feel free to reach out:
 
 GitHub: @aryansojitra
-
 Email: [aryanpatel0344h@gmail.com]
