@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Guessing Game</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+        }
+        h1 {
+            margin-top: 40px;
+            font-size: 2.2rem;
+            color: #3b82f6;
+            letter-spacing: 2px;
+            text-shadow: 0 2px 8px #c7d2fe;
+        }
+        #optionContainer {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 30px 0;
+            gap: 20px;
+        }
+        #optionContainer > div {
+            height: 100px;
+            width: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 10px;
+            border-radius: 16px;
+            cursor: pointer;
+            box-shadow: 0 4px 16px rgba(59, 130, 246, 0.15);
+            transition: transform 0.2s, box-shadow 0.2s;
+            border: 2px solid #e0e7ff;
+        }
+        #optionContainer > div:hover {
+            transform: scale(1.08);
+            box-shadow: 0 8px 24px rgba(59, 130, 246, 0.25);
+            border-color: #3b82f6;
+        }
+        h4 {
+            color: #64748b;
+            font-size: 1.2rem;
+        }
+        #score {
+            color: #10b981;
+            font-weight: bold;
+            margin-left: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1 id="colorCode"></h1>
+    </div>
+    <div id="optionContainer"></div>
+    <div>
+        <h4>Score: <span id="score"></span></h4>
+    </div>
+    <script src="color.js"></script>
+</body>
+</html>
